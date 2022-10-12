@@ -31,4 +31,23 @@ outputReportName = "ExampleOutput.pdf";
 addpath("~/PSU_Normal_Impedance_Tube/Functions/")
 ```
 
-Navigate to the live editor ribbon and hit run
+Navigate to the live editor ribbon and hit run 
+
+---
+
+<ins>2 different outputs</ins>
+* PDF report with 
+
+  - OASPL vs. time plots
+
+  -	Absorption coefficient vs. frequency plots
+
+  - Attenuation vs. frequency plots
+
+  - Specific impedance ratio vs. frequency plots
+
+* CSV data export
+
+  - Absorption, reflection, attenuation, and specific impedance ratio as a function of frequency for each test
+
+  - Timeseries OASPL data for each test
