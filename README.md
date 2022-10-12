@@ -36,7 +36,7 @@ Navigate to the live editor ribbon and hit run
 ---
 
 <ins>2 different outputs</ins>
-* PDF report with 
+* PDF and HTML report with 
 
   - OASPL vs. time plots for each test
 
