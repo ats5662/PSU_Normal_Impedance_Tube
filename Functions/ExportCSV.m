@@ -29,9 +29,12 @@ function ExportCSV(dataFrameName,nameOfFile)
     ResultsDataFrame(ResultsDataFrame.Frequency_Hz>3400,:)=[];
     ResultsDataFrame(ResultsDataFrame.Frequency_Hz<377,:)=[];
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    SPL_Mic1 = SPL(dataFrameName(:,3),'air',0.5,FS);
-    SPL_Mic2 = SPL(dataFrameName(:,2),'air',0.5,FS);
+    Mic1Data = dataFrameName(:,3);
+    Mic2Data = dataFrameName(:,2);
+    SPL_Mic1 = SPL(Mic1Data(2:8:end,:),'air',0.05,FS);
+    SPL_Mic2 = SPL(Mic2Data(2:8:end,:),'air',0.05,FS);
     Time = dataFrameName(:,1);
+    Time = Time(2:8:end,:);
     TimeseriesSPL = array2table([Time, SPL_Mic1, SPL_Mic2],...
     'VariableNames', {'Time_s', 'Mic1_SPL_dB', 'Mic_2_SPL_dB'});
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
