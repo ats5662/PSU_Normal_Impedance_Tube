@@ -38,13 +38,13 @@ Navigate to the live editor ribbon and hit run
 <ins>2 different outputs</ins>
 * PDF report with 
 
-  - OASPL vs. time plots
+  - OASPL vs. time plots for each test
 
-  -	Absorption coefficient vs. frequency plots
+  -	Absorption coefficient vs. frequency plots for each test
 
-  - Attenuation vs. frequency plots
+  - Attenuation vs. frequency plots for each test
 
-  - Specific impedance ratio vs. frequency plots
+  - Specific impedance ratio vs. frequency plots for each test
 
 * CSV data export
 
