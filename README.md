@@ -44,10 +44,10 @@ Navigate to the live editor ribbon and hit run
 
   - Attenuation vs. frequency plots for each test
 
-  - Specific impedance ratio vs. frequency plots for each test
+  - Specific impedance ratio (resistance and reactance) vs. frequency plots for each test
 
 * CSV data export
 
-  - Absorption, reflection, attenuation, and specific impedance ratio as a function of frequency for each test
+  - Absorption, reflection, attenuation, and specific impedance ratio (resistance and reactance) as a function of frequency for each test
 
   - Timeseries OASPL data for each test
