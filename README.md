@@ -16,7 +16,7 @@ or
 git clone https://github.com/ats5662/PSU_Normal_Impedance_Tube.git
 ```
 
-Change directory to the main mlx scipt 
+Change directory to the main mlx script 
 
 ```
 cd "~/PSU_Normal_Impedance_Tube/ProcessData/"
